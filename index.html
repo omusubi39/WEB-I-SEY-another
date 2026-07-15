@@ -2,15 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-    <title>WEB I SEY-Another</title>
+    <title>WEB I SYE-ANOTHER</title>
     <style>
         body { 
-  background: linear-gradient(to bottom, rgb(255, 255, 255), #000000);
+  background: linear-gradient(to bottom, rgb(255, 255, 255), #000e90);
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
 min-height: 100vh;
+        .button {
+  display: inline-block;
+  background: #020087; 
+  color: white;/*文字の色*/
+  padding: 9px 55px;
+  border-radius: 980px; 
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: background 0.9s ease;
+}
         }
+
+.button:hover {
+  background: #2a1ffe;/*カーソルを当てた時の色*/
+}
     </style>
     </head>
    
@@ -22,12 +37,13 @@ min-height: 100vh;
 
         <h2>
             申し訳ございません、<br>
-            ただいまアップデート中ですのでサイトはご利用出来ません
+            ただいまアップデート中ですのでサイトはご利用出来ません。
         </h2>
-        <img src="logo.svg" width="708" height="235.5" alt="logo">
-        <h2>omusubi39</h2>
-        <button onclick="window.location.href='https://github.com/omusubi39'">omusubi39リンク</button>
-    
+        <img src="logo-another.svg" width="708" height="235.5" alt="logo">
+        <h2>omusubi39のリンク</h2>
+        <button class="button"onclick="window.location.href='https://github.com/omusubi39'">omusubi39リンク</button>
+        <h1> </h1>
+        <button class="button"onclick="window.location.href='https://omusubi39.github.io/WEB-I-SEY/'">戻る</button>
 
     </body>
 
