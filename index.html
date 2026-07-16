@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <title>WEB I SYE-ANOTHER</title>
     <style>
-        body { 
-  background: linear-gradient(to bottom, rgb(255, 255, 255), #000e90);
+        body {
+            background-color: #fefefe;
+            color: #010101;
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-min-height: 100vh;
+        }
         .button {
   display: inline-block;
   background: #020087; 
@@ -21,7 +21,6 @@ min-height: 100vh;
   text-decoration: none;
   transition: background 0.9s ease;
 }
-        }
 
 .button:hover {
   background: #2a1ffe;/*カーソルを当てた時の色*/
@@ -34,26 +33,33 @@ h1 {
   line-height: 1.05;
   text-align: center;
 }
+h2 {
+  font-family: -apple-system, "SF Pro Display", "Helvetica Neue", sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  text-align: center;
+}
+
+p {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 400;
+  color: #777777; 
+  line-height: 1;
+  text-align: center;
+}
     </style>
-    </head>
-   
-
-    <body>
-
-
-        <h1>アップデート中</h1>
-
-        <h2>
-            申し訳ございません、<br>
-            ただいまアップデート中ですのでサイトはご利用出来ません。
-        </h2>
-        <img src="logo-another.svg" width="708" height="235.5" alt="logo">
-        <h2>omusubi39のリンク</h2>
-        <button class="button"onclick="window.location.href='https://github.com/omusubi39'">omusubi39リンク</button>
-        <h1> </h1>
-        <button class="button"onclick="window.location.href='https://omusubi39.github.io/WEB-I-SEY/'">戻る</button>
-
-    </body>
-
-</html>
-    
+<body>
+    <img src="logo-another.svg" width="944" height="314">
+    <h1>こんにちは~~Hello~~</h1>
+   <h2 class="custom-size">WEB I SEY-Anotherとは？</h2>
+    <p>WEB I SEYのサブページです！<br>
+    このページは色々なことを投稿していきます。</p>
+    <h1>僕の弟が作った作品（レイモンド）</h1>
+    <img src="WEB1.jpg" width="202" height="452"><img src="WEB2.jpg" width="202" height="452">  
+    <p>また、新作ができたら紹介させて下さい。</p>
+    <h2>私のアカウント</h2>
+    <button class="button" onclick="window.location.href='https://github.com/omusubi39'">omusubi39</button>
+    <p> </p>
+    <button class="button" onclick="window.location.href='https://omusubi39.github.io/WEB-I-SEY/'">戻る（WED I SEY）</button>
